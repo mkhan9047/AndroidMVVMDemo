@@ -2,17 +2,14 @@ package com.app.androidmvvmdemo.Views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.util.Log;
 
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.EntityClasses.Note;
+import com.app.androidmvvmdemo.Model.LocalDataSource.EntityClasses.Note;
 import com.app.androidmvvmdemo.R;
-import com.app.androidmvvmdemo.Repository.NoteRepository;
 import com.app.androidmvvmdemo.ViewModel.NoteViewModel;
 import com.app.androidmvvmdemo.Views.CustomAdapter.NoteRecycleAdapter;
 

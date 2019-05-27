@@ -2,16 +2,13 @@ package com.app.androidmvvmdemo.Repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
-import android.provider.ContactsContract;
 
 import androidx.lifecycle.LiveData;
-import androidx.room.PrimaryKey;
 
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.Dao.NoteDao;
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.EntityClasses.Note;
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.NoteDatabase;
+import com.app.androidmvvmdemo.Model.LocalDataSource.Dao.NoteDao;
+import com.app.androidmvvmdemo.Model.LocalDataSource.EntityClasses.Note;
+import com.app.androidmvvmdemo.Model.LocalDataSource.NoteDatabase;
 
-import java.security.PrivateKey;
 import java.util.List;
 
 public class NoteRepository {

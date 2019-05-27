@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.EntityClasses.Note;
+import com.app.androidmvvmdemo.Model.LocalDataSource.EntityClasses.Note;
 import com.app.androidmvvmdemo.Repository.NoteRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.EntityClasses;
+package com.app.androidmvvmdemo.Model.LocalDataSource.EntityClasses;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

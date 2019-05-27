@@ -1,4 +1,4 @@
-package com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.Dao;
+package com.app.androidmvvmdemo.Model.LocalDataSource.Dao;
 
 
 import androidx.lifecycle.LiveData;
@@ -8,7 +8,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.EntityClasses.Note;
+import com.app.androidmvvmdemo.Model.LocalDataSource.EntityClasses.Note;
 
 import java.util.List;
 

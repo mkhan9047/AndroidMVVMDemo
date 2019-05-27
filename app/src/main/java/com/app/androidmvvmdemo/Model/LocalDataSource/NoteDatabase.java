@@ -1,4 +1,4 @@
-package com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase;
+package com.app.androidmvvmdemo.Model.LocalDataSource;
 
 
 import android.content.Context;
@@ -10,8 +10,8 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.Dao.NoteDao;
-import com.app.androidmvvmdemo.Model.RoomPrecistenceDatabase.EntityClasses.Note;
+import com.app.androidmvvmdemo.Model.LocalDataSource.Dao.NoteDao;
+import com.app.androidmvvmdemo.Model.LocalDataSource.EntityClasses.Note;
 
 @Database(entities = {Note.class}, version = 1)
 public abstract class NoteDatabase extends RoomDatabase {
@@ -39,9 +39,7 @@ public abstract class NoteDatabase extends RoomDatabase {
     };
 
     public static class PopulateDataToDatabase extends AsyncTask<Void, Void, Void> {
-
         NoteDao noteDao;
-
         public PopulateDataToDatabase(NoteDatabase noteDatabase) {
             noteDao = noteDatabase.noteDao();
         }
